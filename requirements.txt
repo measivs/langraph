@@ -1,0 +1,10 @@
+langchain
+qdrant-client~=1.13.3
+langchain-openai~=0.3.12
+langchain-qdrant
+langgraph~=0.3.25
+dotenv~=0.9.9
+numpy
+
+python-dotenv~=1.1.0
+langchain-core~=0.3.51
