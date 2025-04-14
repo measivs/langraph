@@ -98,14 +98,8 @@ graph.add_edge("retriever", "llm_process")
 graph.add_edge("llm_process", END)
 graph = graph.compile()
 
+print(graph.get_graph().draw_mermaid())
+
 mood = "i'm sad"
 result = graph.invoke({"mood": mood})
 print(result)
-
-
-
-
-
-
-
-
